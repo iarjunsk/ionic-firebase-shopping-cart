@@ -1,0 +1,36 @@
+<ion-view style="" class=" " id="page9" title="My Cart">
+    <ion-content class="has-header" padding="true">
+
+      <div>
+        <p>Total ( {{get_qty()}} ) =
+          <strong> &#8377; {{total_amount}}</strong>
+        </p>
+      </div>
+      <button ng-click="checkout()" class="button button-assertive button-block ">Check Out</button>
+
+      <div ng-repeat="item in cart"   >
+        <div class="list card" >
+          <div style="min-height: 30px;" class="item item-divider">{{item.item_name}} </div>
+          <div class="item item-body" >
+
+            <img ng-src="{{'img/fk/'+ item.item_image +'.jpg'}}" width="100%" height="auto" style="box-shadow: none;">
+            <form class="list"></form>
+            <div>
+              <p>{{item.item_qty}} x &#8377; {{item.item_price}} =
+                <strong> &#8377; {{ item.item_qty *  item.item_price  }}</strong>
+              </p>
+            </div>
+            <div class="button-bar" style="box-shadow: none;">
+              <button ng-click="removeFromCart(item.$id)" class="button button-assertive button-block button-small icon ion-android-delete" ></button>
+              <button class="button button-stable button-clear button-block button-small icon ion-plus" ng-click="inc(item.$id)"></button>
+              <button class="button button-stable button-clear button-block button-small">{{item.item_qty}}</button>
+              <button class="button button-stable button-clear button-block  icon ion-minus" ng-click="dec(item.$id)" ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </ion-content>
+</ion-view>

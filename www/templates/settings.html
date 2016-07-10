@@ -1,0 +1,92 @@
+<ion-view style="" class=" " id="page12" title="Settings">
+    <ion-content class="has-header" padding="false"  >
+
+
+
+
+
+      <form name="settingForm" class="list " id="settings-form">
+
+        <ion-list class=" " >
+
+          <!-- Profile Cover Page -->
+          <div class="profile-nav col-md-3">
+            <div class="panel">
+              <div class="user-heading round">
+                <a href="#">
+                  <img ng-src="{{&apos;img/fk/&apos;+ user_info.photoURL +&apos;.jpg&apos;}}" >
+                </a>
+                <p style="color: #ffffff;">{{user_info.displayName}}</p>
+              </div>
+            </div>
+          </div>
+
+
+          <label class="item item-input ic-selected">
+            <a class="icon icon-right ion-android-call" style="margin-right: 10px;"></a>
+            <input style="color: #000;" ng-model="user_extras.telephone" type="text" placeholder="Telephone" >
+          </label>
+
+          <label class="item item-input ic-selected">
+            <a class="icon icon-right ion-email" style="margin-right: 10px;"></a>
+            <input style="color: #000;" ng-model="data_editable.email" type="email"  placeholder="Email">
+          </label>
+
+          <label class="item item-input ic-selected">
+            <a class="icon icon-right ion-locked" style="margin-right: 10px;"></a>
+            <input style="color: #000;" ng-model="data_editable.password" type="password" placeholder="Update Password">
+          </label>
+
+
+
+          <!--Address Header-->
+          <label ng-click="addManipulation()" class="item item-input  item ic-selected" >
+            <a class="icon icon-right ion-ios-location" style="margin-right: 10px;" ></a>
+            Address
+            <i  class="icon icon-right ion-android-add-circle" style="font-size: larger ;margin-left: 10px;"></i>
+          </label>
+
+
+        <div ng-repeat="item in addresses"   >
+          <div class="list card" >
+            <div style="min-height: 30px;" class="item item-divider">
+                <a class="icon icon-right ion-ios-location"></a>
+                {{item.nickname}}
+                <div style="float: right;">
+                  <a ng-click="addManipulation(item)" class="icon icon-right ion-edit" style="font-size: 20px;"></a>
+                  <a ng-click="deleteAddress(item.$id)" class="icon icon-right ion-android-delete" style="font-size: 20px;"></a>
+                </div>
+            </div>
+            <div class="item item-body" >
+
+              <span> {{item.address}} </span>
+              <span>Pin: {{item.pin}}</span>
+              <span>Tel: {{item.phone}}</span>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+        </ion-list>
+
+      </form>
+
+    </ion-content>
+
+
+
+
+
+
+
+  <!-- <ion-footer-bar  class="bar button-bar-footer" style="height: auto;">   -->
+    <div id="footer" class="button-bar"  >
+      <a style="min-width: 50%;border-radius: 0px;" ng-click="cancel()" class="button button-lite icon-left ion-close">Cancel</a>
+      <a style="min-width: 50%;border-radius: 0px;" ng-click="save(user_extras,data_editable)"  class="button button-assertive icon-left ion-checkmark">Save</a>
+    </div>
+  <!-- </ion-footer-bar>  -->
+
+</ion-view>
