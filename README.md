@@ -1,7 +1,7 @@
 # Ionic Firebase Shopping Cart App
 
 ### FoodKart V0.3
-![FoodKart V0.3 ](https://raw.githubusercontent.com/arjunsk/ionic-firebase-shopping-cart/master/fkv0.3.png)
+![FoodKart V0.3 ](https://raw.githubusercontent.com/arjunsk/ionic-firebase-shopping-cart/master/fk-latest.png)
 
 ####Features:
       1. Achieved significant increase in performance and UI using crosswalk and Ionic meterial.
