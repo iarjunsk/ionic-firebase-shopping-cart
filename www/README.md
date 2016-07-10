@@ -1,5 +1,4 @@
-# Web App
-
+# NOTE:
  Create a new firebase project [here.] (https://console.firebase.google.com/)
 
 #### Things to replace
