@@ -15,8 +15,14 @@
      
       No need of long Queue to order your favorate food. 
       
+      
 Make sure your read my complete tutorial series on ["Getting Started with Firebase."](http://www.arjunsk.com/tag/firebase/)
 
+####Comming Soon
+      1. Backend for Processing Orders.
+      2. Favourates Page.
+      3. Offers Page.
 
+Make sure to [follow me on Git ](http://github.com/arjunsk) for getting the Latest Project Updates. 
       
       
