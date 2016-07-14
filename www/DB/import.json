@@ -1,0 +1,75 @@
+{
+  "category" : {
+    "cat01" : "Burger",
+    "cat02" : "Drinks"
+  },
+  "featured" : {
+    "item1" : "slide_1",
+    "item2" : "slide_2"
+  },
+  "menu" : {
+    "item1" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item1 description",
+      "image" : "chicken_maharaja",
+      "name" : "New Chicken Maharaja",
+      "price" : 130,
+      "stock" : 100
+    },
+    "item2" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item2 description",
+      "image" : "big_spicy_chicken_wrap",
+      "name" : "Big Spicy Chicken Wrap",
+      "price" : 120,
+      "stock" : 100
+    },
+    "item3" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "item3 description",
+      "image" : "thumsup",
+      "name" : "Thumsup 100ml",
+      "price" : 40,
+      "stock" : 100
+    },
+    "item4" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "item4 description",
+      "image" : "mccafe_ice_coffee",
+      "name" : "Ice Coffee",
+      "price" : 140,
+      "stock" : 100
+    },
+    "item5" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item5 description",
+      "image" : "mc_chicken",
+      "name" : "MC Chicken",
+      "price" : 190,
+      "stock" : 100
+    },
+    "item6" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "item6 description",
+      "image" : "Smoothie",
+      "name" : "Smoothie",
+      "price" : 70,
+      "stock" : 100
+    },
+    "item8" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "item8 description",
+      "image" : "salad_wrap",
+      "name" : "Salad Wrap",
+      "price" : 150,
+      "stock" : 100
+    }
+  }
+}
