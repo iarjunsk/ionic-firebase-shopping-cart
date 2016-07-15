@@ -22,7 +22,11 @@ Make sure your read my complete tutorial series on ["Getting Started with Fireba
       1. Backend for Processing Orders.
       2. Favourates Page.
       3. Offers Page.
+      4. Facebook Login.
 
 Make sure to [follow me on Git ](http://github.com/arjunsk) for getting the Latest Project Updates. 
+
+Update (15-07-2016)
+[![Ionic Firebase Shopping Cart](https://img.youtube.com/vi/GKlnjdbmPxU/0.jpg)](https://www.youtube.com/watch?v=GKlnjdbmPxU&feature=youtu.be)
       
       
