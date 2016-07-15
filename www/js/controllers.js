@@ -400,12 +400,14 @@ angular.module('app.controllers', [])
 
         if(edit_val!=null) {
           //Update  address
-          fireBaseData.refUser().child($scope.user_info.uid).child("address").child(edit_val.$id).update({    // set
-            nickname: res.nickname,
-            address: res.address,
-            pin: res.pin,
-            phone: res.phone
-          });
+          if(res!=null){ // res ==null  => close 
+            fireBaseData.refUser().child($scope.user_info.uid).child("address").child(edit_val.$id).update({    // set
+              nickname: res.nickname,
+              address: res.address,
+              pin: res.pin,
+              phone: res.phone
+            });
+          }
         }else{
           //Add new address
           fireBaseData.refUser().child($scope.user_info.uid).child("address").push({    // set
