@@ -19,8 +19,8 @@
 Make sure your read my complete tutorial series on ["Getting Started with Firebase."](http://www.arjunsk.com/tag/firebase/)
 
 ####App Demo
-Use Ionic View to see the demo of the app: http://view.ionic.io/
-View Id: 272277d5
+      Use Ionic View to see the demo of the app: http://view.ionic.io/
+      View Id: 272277d5
 
 ####Comming Soon
       1. Backend for Processing Orders.
