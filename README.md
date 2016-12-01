@@ -1,4 +1,5 @@
-# Ionic Firebase Shopping Cart App
+# Ionic Firebase Shopping Cart App 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ### FoodKart V0.3
 ![FoodKart V0.3 ](https://raw.githubusercontent.com/arjunsk/ionic-firebase-shopping-cart/master/fk-latest.png)
