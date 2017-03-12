@@ -2,7 +2,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/arjunsk/ionic-firebase-shopping-cart)
 
 ### FoodKart V0.3
-![FoodKart V0.3 ](https://raw.githubusercontent.com/arjunsk/ionic-firebase-shopping-cart/master/fk-latest.png)
+![FoodKart V0.3 ](/fk-latest.png)
 
 ####Features:
       1. Achieved significant increase in performance and UI using crosswalk and Ionic meterial.
@@ -23,13 +23,22 @@ Make sure your read my complete tutorial series on ["Getting Started with Fireba
       Use Ionic View to see the demo of the app: http://view.ionic.io/
       View Id: 272277d5
 
-####Comming Soon
+####Comming Soon ( Ah...not very soon!)
       1. Backend for Processing Orders.
       2. Favourates Page.
       3. Offers Page.
       4. Facebook Login.
 
 Make sure to [follow me on Git ](http://github.com/arjunsk) for getting the Latest Project Updates. 
+
+## Donate
+
+If **FoodKart** was helpful for you, send a donation as a thank you. :)
+
+![Bitcoin](/btc.png)
+
+**Bitcoin Adddress**: `1KprXNR7gDHMDUftLnHQWKdpArM2dq3Q5g`
+
 
 ####Update (15-07-2016):
 
