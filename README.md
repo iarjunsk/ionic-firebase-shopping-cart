@@ -38,7 +38,9 @@ If **FoodKart** was helpful for you, send a donation as a thank you. :)
 ![Bitcoin](/btc.png)
 
 **Bitcoin Adddress**: `1KprXNR7gDHMDUftLnHQWKdpArM2dq3Q5g`
+
 or
+
 **Paypal**:  [paypal.me/arjunsk](https://www.paypal.me/arjunsk/5) 
 
 
