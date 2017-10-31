@@ -1,6 +1,11 @@
 # Ionic Firebase Shopping Cart App 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/arjunsk/ionic-firebase-shopping-cart)
 
+
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/kpPTfcZs2AmDLYbvJ42HTnR3/arjunsk/airplay'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/kpPTfcZs2AmDLYbvJ42HTnR3/arjunsk/airplay.svg' />
+</a>
+
 ### FoodKart V0.3
 ![FoodKart V0.3 ](/fk-latest.png)
 
