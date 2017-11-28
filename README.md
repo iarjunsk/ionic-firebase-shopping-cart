@@ -46,6 +46,7 @@ or
 #### Update (15-07-2016):
 
 Video Tutorial: 
+
 [![Ionic Firebase Shopping Cart](https://img.youtube.com/vi/GKlnjdbmPxU/0.jpg)](https://www.youtube.com/watch?v=GKlnjdbmPxU&feature=youtu.be)
       
       
