@@ -14,7 +14,7 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.services',
 })
 .run(function($ionicPlatform,$rootScope) {
 
-    $rootScope.extras = false;
+  $rootScope.extras = false;
 
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
