@@ -1,5 +1,4 @@
 # Ionic Firebase Shopping Cart App 
-(https://github.com/arjunsk/ionic-firebase-shopping-cart)
 
 ### FoodKart V0.3
 ![FoodKart V0.3 ](/fk-latest.png)
